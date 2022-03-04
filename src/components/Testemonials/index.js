@@ -1,10 +1,10 @@
 import React from 'react'
 
-import css from './testemonials.module.css'
+import './testemonials.css'
 
 const Testemonials = () => {
   return (
-    <div>Testemonials</div>
+    <section id='testemonials'>Testemonials</section>
   )
 }
 
