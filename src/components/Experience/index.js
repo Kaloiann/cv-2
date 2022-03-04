@@ -1,10 +1,10 @@
 import React from 'react'
 
-import css from './experience.module.css'
+import './experience.css'
 
 const Experience = () => {
   return (
-    <div>Experience</div>
+    <section id='experience'>Experience</section>
   )
 }
 
