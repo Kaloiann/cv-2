@@ -1,0 +1,40 @@
+.experience__container {
+  display: grid;
+  margin: auto;
+  margin-top: 70px;
+  max-width: 500px;
+}
+.experience__container > div {
+  background: var(--color-bg-variant);
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  padding: 40px;
+}
+.experience__container > div:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+.experience__container h3 {
+  text-align: center;
+}
+.experience__content {
+  text-align: center;
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  gap: 90px;
+  padding-left: 70px;
+}
+@media screen and (max-width: 600px) {
+  .experience__container {
+    padding: 20px;
+    margin-top: 0;
+    height: 200px;
+  }
+  .experience__content {
+    gap: 55px;
+    padding: 0;
+  }
+}

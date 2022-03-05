@@ -1,7 +1,7 @@
 import React from 'react'
 import Links from './Links'
 
-import img from '../../assets/cv-photo.jpg'
+import img from '../../assets/cv-photo2.png'
 
 import './header.css'
 import Socials from './Socials'
