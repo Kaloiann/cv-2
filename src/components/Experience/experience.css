@@ -24,8 +24,10 @@
   display: flex;
   margin-top: 30px;
   flex-wrap: wrap;
-  gap: 90px;
-  padding-left: 70px;
+}
+.experience__content article {
+  padding: 25px;
+  margin: auto;
 }
 @media screen and (max-width: 600px) {
   .experience__container {
@@ -34,7 +36,9 @@
     height: 200px;
   }
   .experience__content {
-    gap: 55px;
-    padding: 0;
+    gap: 0px;
+  }
+  .experience__detailds {
+    padding: 20px;
   }
 }

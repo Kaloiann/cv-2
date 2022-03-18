@@ -1,0 +1,24 @@
+.wraper {
+  display: flex;
+  max-width: max-content;
+  margin: 100px auto;
+}
+.wraper div {
+  margin: 0 20px;
+}
+
+@media screen and (max-width: 1300px) {
+  .wraper {
+    flex-direction: column;
+    margin: auto;
+  }
+  .wraper div {
+    margin: 50px auto;
+  }
+  .wraper iframe {
+    width: 320px;
+    height: 240px;
+  }
+}
+
+

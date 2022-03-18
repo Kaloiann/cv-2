@@ -34,12 +34,12 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsPatchCheckFill/>
-              <h4>Next JS</h4>
+              <h4>Tailwind</h4>
               <small>Intermediate</small>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill/>
-              <h4>Tailwind</h4>
+              <h4>Sass</h4>
               <small>Intermediate</small>
             </article>
           </div>

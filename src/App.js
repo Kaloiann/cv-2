@@ -3,9 +3,8 @@ import Experience from "./components/Experience";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import MainProject from "./components/Portfolio"
-import Testemonials from "./components/Testemonials"
 import Contact from "./components/Contact"
-import Footer from "./components/Footer"
+
 
 
 function App() {
@@ -16,9 +15,7 @@ function App() {
       <About  />
       <Experience />
       <MainProject />
-      <Testemonials />
       <Contact />
-      <Footer />
     </div>
   );
 }

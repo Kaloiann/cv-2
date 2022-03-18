@@ -16,7 +16,6 @@
   text-align: center;
   transition: var(--transition);
   width: 400px;
-  margin: auto;
 }
 .about__card:hover {
   background: transparent;
@@ -54,7 +53,7 @@
 @media screen and (max-width: 600px) {
   .about__cards {
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;  
+    gap: 1rem; 
   }
   .about__content {
     text-align: center;
