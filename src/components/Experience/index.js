@@ -6,9 +6,9 @@ import './experience.css'
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>My Skills</h5>
-      <h2>My Experience</h2>
-      <div className="experience__container">
+      <div className="container experience__container">
+        <h5>My Skills</h5>
+        <h2>My Experience</h2>
         <div className="experience__fontend">
           <h3>Frontend Development</h3>
           <div className="experience__content">

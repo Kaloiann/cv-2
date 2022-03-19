@@ -1,7 +1,7 @@
 .wraper {
   display: flex;
   max-width: max-content;
-  margin: 100px auto;
+  margin: 6.25rem auto;
 }
 .wraper div {
   margin: 0 20px;
@@ -10,14 +10,15 @@
 @media screen and (max-width: 1300px) {
   .wraper {
     flex-direction: column;
-    margin: auto;
+    align-items: center;
+    margin-top: 30px;
   }
-  .wraper div {
-    margin: 50px auto;
+  .wraper > div + div {
+    margin-top: 10px;
   }
   .wraper iframe {
     width: 320px;
-    height: 240px;
+    height: 200px;
   }
 }
 

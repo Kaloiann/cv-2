@@ -10,10 +10,10 @@
   text-decoration: none;
 }
 :root {
-  --color-bg: #b39227;
-  --color-bg-variant: #da8525;
-  --color-primary: #ce3116;
-  --color-primary-variant: #ce3116;
+  --color-bg: #1f1f38;
+  --color-bg-variant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
@@ -38,6 +38,7 @@ body {
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
+  padding: 0 24px;
 }
 h1, h2, h3, h4, h5 {
   font-weight: 500;
@@ -45,18 +46,21 @@ h1, h2, h3, h4, h5 {
 h1 {
   font-size: 2.5rem;
 }
-section {
-  margin-top: 8rem;
+section, header {
+  padding: 30px 0 90px;
+  /* margin-top: 8rem; */
   height: 100vh;
 }
-section > h5 {
-  margin-top: 20px;
+section, header {
+  padding: 30px 0 90px;
+  /* margin-top: 8rem; */
+  height: 100vh;
 }
-section > h2, section > h5 {
+section h2, section h5 {
   text-align: center;
   color: var(--color-light);  
 }
-section > h2 {
+section h2 {
   color: var(--color-primary);
 }
 .text-light {
@@ -80,8 +84,8 @@ a:hover {
   transition: var(--transition);
 }
 .btn:hover {
-  background: var(--color-bg-variant);
-  color: var(--color-primary-variant);
+  background: var(--color-white);
+  color: var(--color-bg);
   border-color: transparent;
 }
 .btn-primary {
@@ -92,6 +96,11 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+
+iframe {
+  position: relative;
+  z-index: 2;
 }
 
 @media screen and (max-width: 1024px){
@@ -109,5 +118,8 @@ img {
   }
   section {
     margin-bottom: 2rem;
+  }
+  html {
+    font-size: 12px;
   }
 }

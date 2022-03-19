@@ -1,7 +1,6 @@
 .about__container {
   text-align: center;
   margin: auto;
-  margin-top: 150px;
   max-width: 700px;
 }
 .about__cards {
@@ -33,6 +32,11 @@
   font-size: 0.7rem;
   color: var(--color-ligth)
 }
+
+.about__content {
+  margin-top: 150px;
+}
+
 .about__content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-ligth);
@@ -51,6 +55,9 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .about__content {
+    margin-top: 50px;
+  }
   .about__cards {
     grid-template-columns: 1fr 1fr;
     gap: 1rem; 

@@ -3,9 +3,11 @@ import React from 'react'
 import './header.css'
 
 const Links = () => {
+
+  const printCV = () => window.print()
   return (
     <div className="links">
-      <a href="#" download className='btn'>Download CV</a>  
+      <div onClick={printCV} className='btn'>Print CV</div>  
     </div>
   )
 }

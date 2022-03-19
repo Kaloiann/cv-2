@@ -1,8 +1,10 @@
 .experience__container {
   display: grid;
   margin: auto;
-  margin-top: 70px;
   max-width: 500px;
+}
+.experience__fontend {
+  margin-top: 70px;
 }
 .experience__container > div {
   background: var(--color-bg-variant);
@@ -31,14 +33,17 @@
 }
 @media screen and (max-width: 600px) {
   .experience__container {
-    padding: 20px;
     margin-top: 0;
-    height: 200px;
+    margin: 0 10px;
+    max-width: 100%;
   }
   .experience__content {
-    gap: 0px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0;
+    margin: auto;
   }
-  .experience__detailds {
-    padding: 20px;
+  .experience__fontend {
+    margin-top: 30px;
   }
 }

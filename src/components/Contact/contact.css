@@ -1,10 +1,11 @@
 .container.contact__container {
   width: fit-content;
   margin: auto;
-  margin-top: 200px;
 }
 .contact__options {
   display: flex;
+  align-items: center;
+  height: calc(100vh - 300px);
 }
 .contact__options article {
   background-color: var(--color-bg-variant);
@@ -32,13 +33,15 @@
     margin: 20px 0;
   }
   .contact__options article {
-    font-size: 20px;
     margin: 20px 20px;
   }
 }
 @media screen and (max-width: 600px) {
  .contact__options article {
     width: 250px;
-   font-size: 15px;
+ }
+ article h5 {
+   font-size: 1rem;
+   white-space: nowrap
  }
 }
