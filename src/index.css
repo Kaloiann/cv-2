@@ -33,7 +33,7 @@ body {
   background-color: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src//assets/1.jfif);
+  background: radial-gradient(circle, rgba(6,6,10,1) 0%, rgba(39,41,46,1) 100%);
 }
 .container {
   width: var(--container-width-lg);
