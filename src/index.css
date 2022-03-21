@@ -103,6 +103,23 @@ iframe {
   z-index: 2;
 }
 
+.link {
+  display: block;
+  padding: 20px 30px;
+  border-radius: 3rem;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(15px);
+  font-size: 1.15rem;
+  margin-top: 60px;
+}
+
+.link.center {
+  margin: 0 auto;
+  max-width: 250px;
+  text-align: center;
+  margin-top: 60px;
+}
+
 @media screen and (max-width: 1024px){
   .container {
     width: var(--container-width-md)
@@ -121,5 +138,9 @@ iframe {
   }
   html {
     font-size: 12px;
+  }
+  .link.center {
+    padding: 5px 20px;
+    margin-top: 20px;
   }
 }

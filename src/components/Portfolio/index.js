@@ -8,6 +8,7 @@ const MainProject = () => {
       <div className="container">
         <h5>My biggest project</h5>
         <h2>For Baba</h2>
+        <a className="link center" href="https://babas-lab.onrender.com/">Live Demo</a>
         <div className="wraper">
           <div>
             <h3>Desktop version</h3>

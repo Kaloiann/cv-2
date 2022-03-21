@@ -5,7 +5,10 @@
 .contact__options {
   display: flex;
   align-items: center;
-  height: calc(100vh - 300px);
+  height: calc(100vh - 200px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .contact__options article {
   background-color: var(--color-bg-variant);

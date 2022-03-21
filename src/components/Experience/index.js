@@ -15,32 +15,26 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill/>
               <h4>HTML</h4>
-              <small>Intermediate</small>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill/>
               <h4>CSS</h4>
-              <small>Intermediate</small>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill/>
               <h4>JavaScript</h4>
-              <small>Intermediate</small>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill/>
               <h4>React</h4>
-              <small>Intermediate</small>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill/>
               <h4>Tailwind</h4>
-              <small>Intermediate</small>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill/>
               <h4>Sass</h4>
-              <small>Intermediate</small>
             </article>
           </div>
         </div>
