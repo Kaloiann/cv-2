@@ -9,12 +9,12 @@ const Contact = () => {
       <div className="container contact__container">
         <h2>Contact Me</h2>
         <div className="contact__options">
-          {/* <article>
+          <article>
             <AiOutlineMail className='icon'/>
             <h4>Email</h4>
             <h5>contact@kaloian-cenkulovski.com</h5>
             <a href="mailto:kaloian.cenkuvloski_5@abv.bg">Send an email</a>
-          </article> */}
+          </article>
           <article>
             <FiPhoneCall className='icon'/>
             <h4>Phone</h4>
