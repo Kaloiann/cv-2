@@ -5,6 +5,10 @@
 }
 .wraper div {
   margin: 0 20px;
+  max-width: 100%;
+}
+.wraper iframe {
+  max-width: 100%;
 }
 
 @media screen and (max-width: 1300px) {

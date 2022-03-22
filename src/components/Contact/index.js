@@ -12,7 +12,7 @@ const Contact = () => {
           <article>
             <AiOutlineMail className='icon'/>
             <h4>Email</h4>
-            <h5>contact@kaloian-cenkulovski.com</h5>
+            <h5>kaloian.cenkuvloski_5@abv.bg</h5>
             <a href="mailto:kaloian.cenkuvloski_5@abv.bg">Send an email</a>
           </article>
           <article>

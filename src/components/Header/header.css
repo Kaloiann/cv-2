@@ -29,18 +29,20 @@
 }
 .me {
   background: linear-gradient( var(--color-primary), transparent);
-  width: 25rem;
-  height: 25rem;
+  max-width: 300px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
   margin-top: 4rem;
-  border-radius: 2rem 2rem 0 0;
   overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+.me img {
+  height: 100%;
+}
 .link svg {
   margin-right: 10px;
 }
