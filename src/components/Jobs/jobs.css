@@ -1,4 +1,5 @@
 .jobs__container {
+  margin-top: 10rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -12,4 +13,9 @@
 .info p {
   padding-top: 12rem;
   font-size: 1.3rem;
+}
+@media screen and (max-width: 768px) {
+ .jobs__container {
+   margin-top: 0;
+ }
 }
