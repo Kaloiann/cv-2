@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { FaHome, FaUserAlt, FaBookOpen, FaPhoneAlt } from 'react-icons/fa'
-import { RiLightbulbFill } from 'react-icons/ri'
+import { RiLightbulbFill, RiSuitcaseFill } from 'react-icons/ri'
+
+
 
 import './nav.css'
 
@@ -30,6 +32,10 @@ const Nav = () => {
         onClick={() => setActive('#mainProject')}
         className={active === '#mainProject' ? 'active' : ''}
         ><RiLightbulbFill/></a>
+        <a href="#jobs"
+        onClick={() => setActive('#jobs')}
+        className={active === '#jobs' ? 'active' : ''}
+        ><RiSuitcaseFill/></a>
         <a href="#contact"
         onClick={() => setActive('#contact')}
         className={active === '#contact' ? 'active' : ''}

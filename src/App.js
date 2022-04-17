@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Nav from "./components/Nav";
 import MainProject from "./components/Portfolio"
 import Contact from "./components/Contact"
+import Jobs from "./components/Jobs";
 
 
 
@@ -15,6 +16,7 @@ function App() {
       <About  />
       <Experience />
       <MainProject />
+      <Jobs />
       <Contact />
     </div>
   );
